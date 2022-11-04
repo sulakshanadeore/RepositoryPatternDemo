@@ -1,0 +1,13 @@
+         DAL----->WebAPI----->MVC 
+      class lib    webapicore       mvc core
+Port:               78833            65553
+
+Entity Framework core
+
+Cors(Cross Origin Resource Sharing)
+Microsoft.AspNetCore.Mvc.Cors----------> core web api
+1) Install Cors in Webapi Project
+2) Enable cors in webapi route config
+3) add attribute to the each controller in the web api 
+Add code in the startup.cs  in configure() and ConfigureServices()
+Add EnableCors for every controller with/without policy name.
